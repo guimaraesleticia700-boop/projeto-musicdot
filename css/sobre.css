@@ -1,0 +1,48 @@
+body {
+    width:	940px; /*largura para todos os sentidos*/
+    margin-left:	auto; /*espaçamento externo, margem*/
+    margin-right:	auto;
+    font-family:	"Helvetica",	"Lucida	Grande",	sans-serif;
+    color:	#3D3D3D;
+}
+
+h1 {
+    padding:	10px; /*espaçamento interno*/
+    background-color:	#E1EDF2;
+}
+
+h2 {
+    border-bottom:	2px	solid	black; 
+} /*borda preta embaixo*/
+
+figure {
+    margin:	30px; /*esse valor foi aplicado para top, right, bottom, left pois foi escrito só um valor*/
+    padding:	15px; /*o mesmo para o padding*/
+    text-align:	center;
+
+    background-color:	whitesmoke;
+    border:	1px	solid	lightgrey; /*foi aplicado a espessura em 1 px, o style e a cor da borda*/
+}
+
+figcaption {
+    margin-top:	10px;
+}
+
+.matriz-musicdot {
+    width: 500px; /*largura da figure matriz music dot*/
+    margin-left:	auto; /*espaçamento externo, margem, será centralizado*/
+    margin-right:	auto; /*também será centralizado*/
+} /*atribuindo uma classe usando .matriz-musicdot*/
+
+.familia-tupfeln {
+    width:	275px; /*largura da imagem da familia tupfeln*/
+    float:	right;
+    margin: 0 0 30px 30px;}
+/*outra classe*/
+
+figure img {
+    width:	100%;
+} /*Para	resolver	isso	podemos	dizer	que	toda	tag		<img>		dentro	de	uma	tag		<figure>		deve	ocupar
+ todo	o	espaço	que	definimos,	mas	não	mais	que	isso./*
+
+ /*devemos fazer alterções no html ATRIBUINDO UMA CLASSE para a figure da matriz e da família, para funcionar/*
