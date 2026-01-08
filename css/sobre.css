@@ -46,3 +46,12 @@ figure img {
  todo	o	espaço	que	definimos,	mas	não	mais	que	isso./*
 
  /*devemos fazer alterções no html ATRIBUINDO UMA CLASSE para a figure da matriz e da família, para funcionar/*
+
+
+ .contato__subtitulo {
+    display: inline;
+}
+.contato__info {
+    margin: 16px 0 24px;
+    padding-left:	32px;
+}
