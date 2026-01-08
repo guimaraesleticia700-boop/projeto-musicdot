@@ -43,9 +43,9 @@ figcaption {
 figure img {
     width:	100%;
 } /*Para	resolver	isso	podemos	dizer	que	toda	tag		<img>		dentro	de	uma	tag		<figure>		deve	ocupar
- todo	o	espaço	que	definimos,	mas	não	mais	que	isso./*
+ todo	o	espaço	que	definimos,	mas	não	mais	que	isso.*/
 
- /*devemos fazer alterções no html ATRIBUINDO UMA CLASSE para a figure da matriz e da família, para funcionar/*
+ /*devemos fazer alterções no html ATRIBUINDO UMA CLASSE para a figure da matriz e da família, para funcionar*/
 
 
  .contato__subtitulo {
